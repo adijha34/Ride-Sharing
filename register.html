@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Sharing App - Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h2>Register</h2>
+        <form id="register-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+            <button type="submit">Register</button>
+        </form>
+        <p id="register-error" class="error"></p>
+        
+        <div id="social-login">
+            <button id="google-login">Sign up with Google</button>
+            <button id="facebook-login">Sign up with Facebook</button>
+            <button id="twitter-login">Sign up with Twitter</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
